@@ -3,6 +3,7 @@
 
 #### By **Dennis Kamakei**
 
+#### Live Url:
 ### Description
 This web application is for ordering of pizzas online. User is given an option to choose pizza size, choose a crust each with specific price and choose toppings(can choose more than one) each with specific price depending on the size of pizza. On ordering the user is given the total charge of the single pizza order then given an option to order more than one pizza and select whether to be delivered or not, if yes then prompted to enter the location to be delivered. On submitting the user is given an option to make another order or checkout. The purpose of this app is to make it easy for our customers to get there order at there comfort.
 
@@ -10,7 +11,7 @@ This web application is for ordering of pizzas online. User is given an option t
 * Browser( Google Chrome recommended)
 * Internet
 * Laptop/or smartphone
-* Access it via this live link 
+* Access it via this live link
 * Or have git and Github account,
 * Fork then clone git clone
 
@@ -25,4 +26,4 @@ In case of any issue feel free to reach me via email at ykamakei6345@gmail.com. 
 
 ### License
 *MIT*
-Copyright(c)2020**Dennis Kamakei**
+Copyright(c)2020 **Dennis Kamakei**
