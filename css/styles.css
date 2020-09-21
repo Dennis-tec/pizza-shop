@@ -1,9 +1,12 @@
 .heading{
-  background-image: url(.//images/pizzaintro.jpeg);
+  background-color: darkgrey;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
+  color: white;
+  height: 250px;
+  padding-top: 30px;
 }
 .intro{
   text-align: center;
@@ -11,9 +14,14 @@
 .location{
   text-align: center;
 }
-.general{
-  background-image: url(../images/order.jpeg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+
+}
+.pizza{
+  text-align: center;
+}
+.form{
+  text-align: center;
+}
+#logo{
+  padding-top: 20px;
 }

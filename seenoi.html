@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="heading">
-      <img src="./images/mypizashop.jpeg" alt="logo" height="50px" width="50px">
+    <span id="logo"><img src="./images/mypizashop.jpeg" alt="logo" height="30px" width="40px"> </span>
       <h3>WELCOME <br>TO SEENOI PIZZA SHOP</h3>
     </div>
     <div class="intro">
@@ -22,17 +22,18 @@
     <div class="general">
 
    <div class="pizza">
-      <p><strong>Click here <span id="pizza"><a href="#">pizza</a><h5>Kind of pizzas that we offer</h5> <ul>
+      <p><strong>Click here to see variety of pizzas that we offer <span id="pizza"><a href="#">pizza</a><h5>Kind of pizzas that we offer</h5> <ul>
         <li>Small size pizza either crispy,stuffed, or gluten free.</li>
         <li>Medium size pizza with either crispy,stuffed, or gluten free.</li>
         <li>Large size pizza with either crispy,stuffed, or gluten free.</li>
-      </ul></span>to see variety of pizzas that we offer</strong></p>
+      </ul></span></strong></p>
     </div>
     <span id=""></span>
     <section class="select">
       <p>Select your pizza below to know the price of your order.</p>
 <form class="form" action="index.html" method="post">
-  <select class="select" class="form-control" placeholder"Pizza" size="16">
+<label for="pizza">Pizza:
+  <select id="select" class="form-control" size="" col"2">
     <option value="small">Small size</option>
     <option value="smallc">Crispy small size</option>
     <option value="smalls">Stuffed small size </option>
@@ -45,14 +46,14 @@
     <option value="mediumc">Cripsy medium size</option>
     <option value="mediums">Stuffed medium size</option>
     <option value="mediumg">Gluten free medium size</option>
-    <p><em> if you want your entered to be delivered to you kindly indicate below</em></p>
-    <select class="delivery" >Delivery
+  </select> </label>
+    <p><em> <strong>if you want your order to be delivered to you, indicate below!</strong></em></p>
+  <label for="delivery">Delivery:  <select id="delivery" class="form-control">
       <option value="bymail">Delivered through mail</option>
       <option value="no">Doesn't require delivery</option>
-    </select>
+    </select> </label> <br>
     <input type="button" value="Order!" class="btn btn-success">
 </form>
-    </section>
 </div>
   </body>
 </html>
