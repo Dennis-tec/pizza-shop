@@ -1,0 +1,19 @@
+.heading{
+  background-image: url(.//images/pizzaintro.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.intro{
+  text-align: center;
+}
+.location{
+  text-align: center;
+}
+.general{
+  background-image: url(../images/order.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
