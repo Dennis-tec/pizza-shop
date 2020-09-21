@@ -37,25 +37,24 @@
 <form class="form" action="index.html" method="post">
 <label for="pizza">Pizza:
   <select id="select" class="form-control" size="" col"2">
-    <option value="small">Small size</option>
-    <option value="smallc">Crispy small size</option>
-    <option value="smalls">Stuffed small size </option>
-    <option value="smallg">Gluten free small size</option>
-    <option value="large"> Large size</option>
-    <option value="largec">Cripsy large size</option>
-    <option value="larges">Stuffed large size</option>
-    <option value="largeg">Gluten free large size</option>
-    <option value="medium">Medium</option>
-    <option value="mediumc">Cripsy medium size</option>
-    <option value="mediums">Stuffed medium size</option>
-    <option value="mediumg">Gluten free medium size</option>
+    <option value="small" id="s">Small size</option>
+    <option value="smallc" id="sc">Crispy small size</option>
+    <option value="smalls" id="ss">Stuffed small size </option>
+    <option value="smallg" id="sg">Gluten free small size</option>
+    <option value="large" id="l"> Large size</option>
+    <option value="largec" id="lc">Cripsy large size</option>
+    <option value="larges" id="ls">Stuffed large size</option>
+    <option value="largeg" id="lg">Gluten free large size</option>
+    <option value="medium" id="m">Medium</option>
+    <option value="mediumc" id="mc">Cripsy medium size</option>
+    <option value="mediums" id="ms">Stuffed medium size</option>
+    <option value="mediumg" id="mg">Gluten free medium size</option>
   </select> </label>
+  <label for="name">Customer Name:<input type="text" id="name" class="form-control"> </label>
+
     <p><em> <strong>if you want your order to be delivered to you, indicate below!</strong></em></p>
-  <label for="delivery">Delivery:  <select id="delivery" class="form-control">
-      <option value="bymail">Delivered through mail</option>
-      <option value="no">Doesn't require delivery</option>
-    </select> </label> <br>
-    <input type="button" value="Order!" class="btn btn-success">
+<label for="delivery">Delivery:<input type="button" class="btn btn-primary" id="delivery" value="Delivered through mail!"> </label> <br>
+<input type="button" value="Order!" id="button" class="btn btn-success">
 </form>
 </section>
 <div class="output" style="color: green">

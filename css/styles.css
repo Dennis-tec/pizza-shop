@@ -42,3 +42,14 @@ background-image: url(../images/maks.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
+#select{
+  background: transparent;
+  color: white;
+}
+#s, #sc, #ss, #sg, #l, #lc, #ls, #lg, #m, #mc, #ms, #mg{
+  background: black;
+}
+#name{
+  background: transparent;
+  color: white;
+}
