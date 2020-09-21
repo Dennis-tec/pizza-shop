@@ -12,7 +12,7 @@ function Size(first, second, third, fourth,) {
 }
 $("#button").click(function(event){
   event.preventDefault();
-  var small=$("#s").val();
+  var small=$("#s").val(500);
   var smallc=$("#sc").val();
   var smalls=$("#ss").val();
   var smallg=$("#sg").val();
@@ -24,17 +24,11 @@ $("#button").click(function(event){
   var mediumc=$("#mc").val();
   var mediums=$("#ms").val();
   var mediumg=$("#mg").val();
-  var kamakx= new Size(small, smallc, smalls, smallg);
-  var dennis= new Size(large, large, larges, largeg);
-  var seenoi= new Size(medium, mediumc, mediums, mediumg);
-  var sizes={sizes:[kamakx, dennis, seenoi]}
-  var select=$("#select")
-  var price;
-  if (select===kamakx.crispy) {
-    price="350.00ksh";
-  } else {
-    price="700";
-  }
-  $(".output").text(price+name);
+  var select=[small, "#sc"];
+
+$("#story1").text(name);
+$("#story2").text(select[0]);
+$("#story3").text();
+$(".story").show();
 })
 })

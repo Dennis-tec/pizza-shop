@@ -4,8 +4,8 @@
   background-repeat: no-repeat;
   text-align: center;
   color: white;
-  height: 180px;
-  padding-top: 30px;
+  height: 150px;
+  padding-top: 0px;
 }
 .intro{
   text-align: center;
@@ -46,10 +46,27 @@ background-image: url(../images/maks.jpg);
   background: transparent;
   color: white;
 }
-#s, #sc, #ss, #sg, #l, #lc, #ls, #lg, #m, #mc, #ms, #mg{
-  background: black;
-}
+
 #name{
   background: transparent;
   color: white;
+}
+#s, #sc, #ss, #sg, #lg, #lc, #l, #ls, #m, #mc, #ms, #mg{
+  background: black;
+  color: white;
+}
+.story{
+  display: none;
+  text-align: center;
+}
+.navbar{
+  columns: 4;
+  padding-bottom: 0px;
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: lightgreen;
+  background-position: center;
+  background-size: contain;
+  width: 1058px;
+  color: darkblue;
 }
