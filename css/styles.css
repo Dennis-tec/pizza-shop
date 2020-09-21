@@ -1,11 +1,10 @@
 .heading{
-  background-color: darkgrey;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
-  height: 250px;
+  height: 180px;
   padding-top: 30px;
 }
 .intro{
@@ -14,14 +13,32 @@
 .location{
   text-align: center;
 }
-
-}
 .pizza{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+#header{
   text-align: center;
 }
+
 .form{
   text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.select{
+text-align: center;
 }
 #logo{
   padding-top: 20px;
+}
+.container{
+  font-family: serif;
+background-image: url(../images/maks.jpg);
+  font-size: 15px;
+  font-weight: 100;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
