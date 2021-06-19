@@ -7,18 +7,47 @@
   height: 150px;
   padding-top: 0px;
 }
+.heading h3{
+  font-weight: bolder;
+  color: white;
+}
 .intro{
   text-align: center;
+  color: white;
+  font-size: 17px;
+
 }
 .location{
   text-align: center;
+  color: white;
+  font-size: 17px;
+
+}
+.intro h5{
+  font-weight: bolder;
+  font-size: 20px;
+  color: black;
+}
+.location h5{
+  font-weight: bolder;
+  font-size: 20px;
+  color: black;
+
 }
 .pizza{
   margin-left: 30%;
   margin-right: 30%;
+  color: white;
+  font-size: 17px;
+
 }
-#header{
+
+#header h5{
   text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  color: black;
+
 }
 
 .form{
@@ -29,18 +58,19 @@
 }
 .select{
 text-align: center;
+color: white;
+font-size: 17px;
+
 }
 #logo{
   padding-top: 20px;
 }
 .contain{
-  font-family: serif;
-background-image: url(../images/maks.jpg);
-  font-size: 15px;
-  font-weight: 100;
-  color: white;
+  font-family: monospace;
+  background-image: url(../images/maks.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: rgb(255, 0, 0);
 }
 #select{
   background: transparent;
@@ -61,12 +91,13 @@ background-image: url(../images/maks.jpg);
 }
 .navbar{
   columns: 4;
-  padding-bottom: 0px;
-  font-size: 18px;
-  font-weight: bolder;
-  background-color: lightgreen;
+  padding-top: 30px;
+  font-size: 20px;
+  background-color: indigo;
+  color: white;
   background-position: center;
   background-size: contain;
-  width: 1058px;
-  color: darkblue;
+  font-style: oblique;
+  font-family: sans-serif;
+
 }
