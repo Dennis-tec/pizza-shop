@@ -1,3 +1,6 @@
+body{
+  height: 100vh;
+}
 .heading{
   background-size: cover;
   background-position: center;
@@ -70,7 +73,6 @@ font-size: 17px;
   background-image: url(../images/maks.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: rgb(255, 0, 0);
 }
 #select{
   background: transparent;
