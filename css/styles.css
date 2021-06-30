@@ -109,8 +109,8 @@ padding-top: 30px;
   font-family: monospace;
   font-size: 15px;
 }
-.news, .contact, .about .footer__social{
-  padding-top: 10px;
+.news, .contact, .about, .footer__social, .footer__title, .number{
+  padding-top: 30px;
 }
 .news h4, .about h4, .contact h4, .footer__title{
   font-size: 20px;
@@ -123,4 +123,6 @@ padding-top: 30px;
 .copy{
 font-family: Georgia;
 font-size: 16px;
+padding-top: 30px;
+
 }
