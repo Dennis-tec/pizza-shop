@@ -126,3 +126,11 @@ font-size: 16px;
 padding-top: 30px;
 
 }
+#pay{
+  background-color: skyblue;
+  width: 300px;
+}
+.payment{
+  padding-top: 30px;
+  text-align: center;
+}
