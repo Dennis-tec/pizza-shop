@@ -1,6 +1,4 @@
-body{
-  height: 100vh;
-}
+
 .heading{
   background-size: cover;
   background-position: center;
@@ -12,6 +10,7 @@ body{
 }
 .heading h3{
   font-weight: bolder;
+  color: white;
   color: white;
 }
 .intro{
@@ -29,10 +28,12 @@ body{
 .intro h5{
   font-weight: bolder;
   font-size: 20px;
+  color: white;
 }
 .location h5{
   font-weight: bolder;
   font-size: 20px;
+  color: white;
 
 }
 .pizza{
@@ -91,7 +92,7 @@ font-size: 17px;
 }
 .navbar{
   columns: 4;
-  padding-top: 30px;
+padding-top: 30px;
   font-size: 20px;
   background-color: indigo;
   color: white;
@@ -100,4 +101,26 @@ font-size: 17px;
   font-style: oblique;
   font-family: sans-serif;
 
+}
+.footers{
+  text-align: center;
+  background-color: darkred;
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+}
+.news, .contact, .about .footer__social{
+  padding-top: 10px;
+}
+.news h4, .about h4, .contact h4, .footer__title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer__icon{
+  color: white;
+  font-size: 25px;
+}
+.copy{
+font-family: Georgia;
+font-size: 16px;
 }
