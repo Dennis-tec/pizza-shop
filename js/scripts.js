@@ -57,4 +57,19 @@ else {
   alert("Please enter the pizza size that you want.")
 }
 })
+
+/*function pay() {
+var text = document.getElementById('text');
+var num = document.getElementById('num');
+var date = document.getElementById('date');
+var code = document.getElementById('code');
+var cvc = document.getElementById('cvc');
+if (!text) {
+  alert("Please Enter all the payment details!")
+
+}
+
+document.getElementById('pbtn').innerHTML = pay();
+}*/
+//|| !num || !date || !code || !cvc//
 })
