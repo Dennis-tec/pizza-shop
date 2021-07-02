@@ -1,19 +1,14 @@
+// IDEA: Delivery button code
 $(document).ready(function(){
   $("#delivery").click(function(){
     var name=$("#name").val();
     var postal=prompt(name +" enter your postal addres");
     alert(name +" your order will be send to your "+ postal +" address.");
   });
-function Size(first, second, third, fourth,) {
-  this.without=first;
-  this.crispy=second;
-  this.stuffEnter=third;
-  this.glutenFree=fourth;
-}
-$("#button").click(function(event){
+})
+/*$("#button").click(function(event){
   event.preventDefault();
   var name=$("#name").val();
-  var delivery=$("#delivery").val();
   var smallc=$("#sc").val();
   var smalls=$("#ss").val();
   var smallg=$("#sg").val();
@@ -23,53 +18,57 @@ $("#button").click(function(event){
   var mediumc=$("#mc").val();
   var mediums=$("#ms").val();
   var mediumg=$("#mg").val();
-if (smallc && name) {
+  var select = $("#select").val();
+ if (select == "Crispy small size") {
   alert(name + ", your total bill is $2.04.");
-}
-else if (smalls && name) {
+ }if (smalls) {
   alert(name + ", your total bill is $2.40.");
-}
-else if (smallg && name) {
+ }if (smallg) {
   alert(name + ", your total bill is $2.21.");
-}
-else if (mediumc && name) {
+ }if (mediumc) {
   alert(name + ", your total bill is $4.78.");
-}
-else if (mediums && name) {
+ }else if (mediums) {
   alert(name + ", your total bill is $5.67.");
-}
-else if (mediumg && name) {
-  alert(name + ", your total bill is $5.73.");
-}
-else if (largec && name) {
+ }else if (mediumg) {
+   alert(name + ", your total bill is $5.73.");
+}else if (largec) {
   alert(name + ", your total bill is $7.80.");
-}
-else if (larges && name) {
+}else if (larges) {
   alert(name + ", your total bill is $7.56.");
-}
-else if (largeg && name) {
+}else if (largeg) {
   alert(name + ", your total bill is $8.41.");
-}
-else if (!name) {
+}else if (!name) {
   alert("Please enter your name.");
+}else {
+  alert("Please enter the pizza size that you want.");
 }
-else {
-  alert("Please enter the pizza size that you want.")
+})*/
+// IDEA: order javascript code
+function order() {
+  var name=document.getElementById('name').value;
+  var select =document.getElementById('select').value;
+
+  var price;
+  if (select === "smallc" && name) {
+      price = name + ", your total bill is $2.17.";
+    }else if(select === "smalls" && name) {
+      price = name + ", your total bill is $2.31."
+    } else if(select === "smallg" && name) {
+      price = name + ", your total bill is $2.31."
+    } else if(select === "largec" && name) {
+      price = name + ", your total bill is $7.41."
+    } else if(select === "larges" && name) {
+      price = name + ", your total bill is $7.63."
+    } else if(select === "largeg" && name) {
+      price = name + ", your total bill is $8.01."
+    } else if(select === "mediumc" && name) {
+      price = name + ", your total bill is $4.79."
+    } else if(select === "mediums" && name) {
+      price = name + ", your total bill is $5.31."
+    } else if(select === "mediumg" && name) {
+      price = name + ", your total bill is $5.37."
+    }else if(!name){
+      price = "Enter Your Name!"
+    }
+document.getElementById('button').innerHTML =alert(price);
 }
-})
-
-/*function pay() {
-var text = document.getElementById('text');
-var num = document.getElementById('num');
-var date = document.getElementById('date');
-var code = document.getElementById('code');
-var cvc = document.getElementById('cvc');
-if (!text) {
-  alert("Please Enter all the payment details!")
-
-}
-
-document.getElementById('pbtn').innerHTML = pay();
-}*/
-//|| !num || !date || !code || !cvc//
-})

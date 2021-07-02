@@ -131,6 +131,38 @@ padding-top: 30px;
   width: 300px;
 }
 .payment{
-  padding-top: 30px;
+  padding-top: 40px;
   text-align: center;
+}
+#pay{
+  border-radius: 4rem;
+  animation: animate 5s infinite;
+}
+@keyframes animate {
+  0%{
+    background-color: indigo;
+  }
+  30%{
+    background-color: darkslategrey;
+    color: white;
+  }
+  50%{
+    background-color: violent;
+  }
+70%{
+  background-color: blue;
+  color: white;
+}
+90%{
+  background-color: red;
+}
+100%{
+  background-color: slategrey;
+  color: white;
+
+}
+}
+#output{
+  color:white;
+  font-size: 30px;
 }
