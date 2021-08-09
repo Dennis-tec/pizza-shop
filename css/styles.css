@@ -1,4 +1,5 @@
-
+body{
+}
 .heading{
   background-size: cover;
   background-position: center;
@@ -91,26 +92,44 @@ font-size: 17px;
   text-align: center;
 }
 .navbar{
-  columns: 4;
-padding-top: 30px;
+  padding-top: 20px;
+  height: 70px;
   font-size: 20px;
-  background-color: indigo;
-  color: white;
-  background-position: center;
-  background-size: contain;
-  font-style: oblique;
-  font-family: sans-serif;
-
+  background-color: #55d6aa;
+  display: block;
+  justify-content: space-between;
+  box-shadow: 0 4px 20px rgba(14, 36, 49, .15);
+  overflow: hidden;
+  font-weight: bold;
 }
+.navbar li {
+  display: inline-block;
+  margin: 0 9.5%;
+}
+ul{
+list-style: none;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #444;
+}
+.active{
+  color: blue;
+}
+
 .footers{
   text-align: center;
   background-color: darkred;
   color: white;
   font-family: monospace;
   font-size: 15px;
+  height: 750px;
+}
+.footer{
+  margin-bottom: 0%;
 }
 .news, .contact, .about, .footer__social, .footer__title, .number{
-  padding-top: 30px;
+  padding-top: 40px;
 }
 .news h4, .about h4, .contact h4, .footer__title{
   font-size: 20px;
@@ -123,7 +142,7 @@ padding-top: 30px;
 .copy{
 font-family: Georgia;
 font-size: 16px;
-padding-top: 30px;
+padding-top: 50px;
 
 }
 #pay{
