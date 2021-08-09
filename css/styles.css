@@ -93,8 +93,7 @@ font-size: 17px;
 }
 .navbar{
   padding-top: 20px;
-  height: 70px;
-  font-size: 20px;
+  height: 80px;
   background-color: #55d6aa;
   display: block;
   justify-content: space-between;
@@ -104,7 +103,7 @@ font-size: 17px;
 }
 .navbar li {
   display: inline-block;
-  margin: 0 9.5%;
+  margin: 0 8%;
 }
 ul{
 list-style: none;
@@ -185,8 +184,13 @@ padding-top: 50px;
   color:white;
   font-size: 30px;
 }
-@@media screen and (max-width(768)){
-  body{
-    height: 100%;
+@media screen and (max-width:768px){
+  .navbar{
+    font-size: 16px
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar{
+    font-size: 20px;
   }
 }
