@@ -185,3 +185,8 @@ padding-top: 50px;
   color:white;
   font-size: 30px;
 }
+@@media screen and (max-width(768)){
+  body{
+    height: 100%;
+  }
+}
