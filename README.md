@@ -11,9 +11,9 @@ This web application is for ordering pizzas, online, from MAA PIZZA SHOP. A user
 * Browser( Google Chrome, Microsoft Edge, and Firefox are recommended)
 * Internet
 * Smartphone/Tablet/Laptop/iPhone/Computer.
-* Access it via this live link https://dennis-tec.github.io/seenoi-shop/
+* Access it via this live link https://dennis-tec.github.io/pizza-shop/
 * Or have git and Github account.
-* Fork then clone git clone https://dennis-tec.github.io/seenoi-shop/
+* Fork then clone git clone https://dennis-tec.github.io/pizza-shop/
 
 ### Known Bugs
 So far there are no bugs known in this app. But if you come across one feel free to raise or even solve it. Feel free to help solving the issue.
@@ -24,8 +24,6 @@ So far there are no bugs known in this app. But if you come across one feel free
 * JavaScript
 * Bootstrap
 
-### Support and contact details
-In case of any issue feel free to reach me via email at dyiaile@haverford.edu or ykamakei6345@gmail.com. Feel free to also contribute in developing and improving the app.
 
 ### License
 *[MIT](LICENSE)* Copyright(c)2020 **Dennis Yiaile**
